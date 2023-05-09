@@ -1,0 +1,40 @@
+.header_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 10px 0px 20px 0px;
+}
+.input_box {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-family: 'Times New Roman';
+  margin: 0px 0px 20px 0px;
+}
+.input_box input {
+  outline: none;
+  outline-offset: none;
+  border: 1px solid rgb(19, 11, 58);
+  height: 25px;
+  margin: 0px 10px 0px 0px;
+  padding: 10px 20px;
+  font-size: 17px;
+  border-radius: 20px;
+  background: #1f252d;
+  color: rgb(182, 178, 178);
+}
+.input_box button {
+  background: #1f252d;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(182, 178, 178);
+  height: 100%;
+}
+.active:hover {
+  background: rgb(65, 69, 71);
+  cursor: pointer;
+  outline: 1px solid rgb(255, 255, 255);
+}

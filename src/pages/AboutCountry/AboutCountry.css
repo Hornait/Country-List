@@ -1,0 +1,29 @@
+.buttons{
+    margin: 20px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.button_{
+    margin: 0px 20px 0px 20px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-family:'Times New Roman';
+    font-size: 15px;
+    color: #a7a4a4;
+    font-weight: 500;
+    background: #1f252d;
+    cursor: pointer;
+    transition: all 8ms ease;    
+}
+.goBack{
+    color: #a7a4a4;
+}
+.buttons button:hover{
+    background-color: #0e1013;   
+    outline: 3px solid #011738;
+}
+.active{
+    background: #0e1013;   
+    outline: 3px solid #011738;
+}

@@ -1,0 +1,58 @@
+.flags{
+  width: 600px;
+}
+.container_info_about_country{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.country_information_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Times New Roman';
+  color: white;
+  font-size: 24px;
+}
+.name_country{
+  font-weight: 500;
+}
+p{
+  font-weight: bolder;
+
+}
+span {
+  font-weight: 100;
+   font-size: 20px;
+   color: rgb(179, 177, 177);
+}
+.flags_block{
+  margin: 0px 60px 0px 0px;
+}
+.name_country{
+  font-size: 60px;
+}
+.info_block div{
+  margin: 0px 0px 40px 0px;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+}
+.info p{
+  max-width: 400px;
+}
+.info div{
+  margin: 10px 40px 0px 0px;
+}
+.info_block a{
+  width: 70px;
+  padding: 0.2em;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: inherit;
+  color:rgb(179, 177, 177);
+}
+.borders{
+  max-width: 600px;
+}
