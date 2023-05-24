@@ -94,7 +94,7 @@ function CountryInfo({ chosenCountry }) {
                   </p>
                 </div>
               </div>
-              <div className="borders">
+              <div>
                 <p>
                   Neighboring countries:{" "}
                   {chosenCountry.borders === undefined
