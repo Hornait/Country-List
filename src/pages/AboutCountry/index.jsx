@@ -26,10 +26,10 @@ function AboutCountry() {
   }, [indexCountry]);
 
   if (!country) {
-    return <div>Loading...</div>;
+    return <div className="dad">Loading...</div>;
   }
   if (country === "Error") {
-    return <div>There was an error loading the country.</div>;
+    return <div className="dad">There was an error loading the country.</div>;
   }
 
   if (showInfoAboutCountry){
